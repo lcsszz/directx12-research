@@ -1,0 +1,14 @@
+﻿  Camera.cpp
+  d3dApp.cpp
+  d3dUtil.cpp
+..\..\Common\d3dUtil.cpp(30): warning C4244: “参数”: 从“std::streamoff”转换到“SIZE_T”，可能丢失数据
+..\..\Common\d3dUtil.cpp(70): warning C4244: “=”: 从“UINT64”转换到“LONG_PTR”，可能丢失数据
+  DDSTextureLoader.cpp
+  GameTimer.cpp
+  GeometryGenerator.cpp
+  MathHelper.cpp
+  d3dScene.cpp
+  正在生成代码
+  All 374 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  20140411.vcxproj -> C:\Users\lcsszz\Documents\Chang Liu Demo\20140411\Release\20140411.exe

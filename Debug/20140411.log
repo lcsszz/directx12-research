@@ -1,0 +1,12 @@
+﻿  d3dScene.cpp
+  MathHelper.cpp
+  GeometryGenerator.cpp
+  GameTimer.cpp
+  DDSTextureLoader.cpp
+  d3dUtil.cpp
+c:\users\lcsszz\documents\chang liu demo\common\d3dutil.cpp(30): warning C4244: “参数”: 从“std::streamoff”转换到“SIZE_T”，可能丢失数据
+c:\users\lcsszz\documents\chang liu demo\common\d3dutil.cpp(70): warning C4244: “=”: 从“UINT64”转换到“LONG_PTR”，可能丢失数据
+  d3dApp.cpp
+  Camera.cpp
+  正在生成代码...
+  20140411.vcxproj -> C:\Users\lcsszz\Documents\Chang Liu Demo\20140411\Debug\20140411.exe

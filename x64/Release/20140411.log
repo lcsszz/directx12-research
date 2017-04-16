@@ -1,0 +1,179 @@
+﻿  Camera.cpp
+  d3dApp.cpp
+  d3dUtil.cpp
+  DDSTextureLoader.cpp
+  GameTimer.cpp
+  GeometryGenerator.cpp
+  MathHelper.cpp
+  Cubemap.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(655): error C2280: “std::pair<const _Kty,_Ty>::pair(const std::pair<const _Kty,_Ty> &)”: 尝试引用已删除的函数
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(96): note: 参见“std::pair<const _Kty,_Ty>::pair”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(773): note: 参见对正在编译的函数 模板 实例化“void std::allocator<_Other>::construct<_Objty,const std::pair<const _Kty,_Ty>&>(_Objty *,const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Other=std::_List_node<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,void *>,
+              _Objty=std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(773): note: 参见对正在编译的函数 模板 实例化“void std::allocator<_Other>::construct<_Objty,const std::pair<const _Kty,_Ty>&>(_Objty *,const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Other=std::_List_node<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,void *>,
+              _Objty=std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(918): note: 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,const std::pair<const _Kty,std::unique_ptr<Texture,std::default_delete<Texture>>>&>(std::allocator<_Other> &,_Objty *,const std::pair<const _Kty,std::unique_ptr<Texture,std::default_delete<Texture>>> &)”的引用
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,void *>>,
+              _Ty=std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,
+              _Kty=std::string,
+              _Other=std::_List_node<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,void *>,
+              _Objty=std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(917): note: 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,const std::pair<const _Kty,std::unique_ptr<Texture,std::default_delete<Texture>>>&>(std::allocator<_Other> &,_Objty *,const std::pair<const _Kty,std::unique_ptr<Texture,std::default_delete<Texture>>> &)”的引用
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,void *>>,
+              _Ty=std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,
+              _Kty=std::string,
+              _Other=std::_List_node<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,void *>,
+              _Objty=std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list(834): note: 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,const std::pair<const _Kty,std::unique_ptr<Texture,std::default_delete<Texture>>>&>(_Ty *,const std::pair<const _Kty,std::unique_ptr<Texture,std::default_delete<Texture>>> &)”的引用
+          with
+          [
+              _Other=std::_List_node<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,void *>,
+              _Ty=std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,
+              _Kty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list(832): note: 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,const std::pair<const _Kty,std::unique_ptr<Texture,std::default_delete<Texture>>>&>(_Ty *,const std::pair<const _Kty,std::unique_ptr<Texture,std::default_delete<Texture>>> &)”的引用
+          with
+          [
+              _Other=std::_List_node<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,void *>,
+              _Ty=std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>,
+              _Kty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list(1062): note: 参见对正在编译的函数 模板 实例化“std::_List_node<std::pair<const _Kty,_Ty>,void *> *std::_List_buy<std::pair<const _Kty,_Ty>,_Alloc>::_Buynode<const std::pair<const _Kty,_Ty>&>(std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::_List_node<std::pair<const _Kty,_Ty>,void *> *,const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list(1061): note: 参见对正在编译的函数 模板 实例化“std::_List_node<std::pair<const _Kty,_Ty>,void *> *std::_List_buy<std::pair<const _Kty,_Ty>,_Alloc>::_Buynode<const std::pair<const _Kty,_Ty>&>(std::_List_node<std::pair<const _Kty,_Ty>,void *> *,std::_List_node<std::pair<const _Kty,_Ty>,void *> *,const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list(1034): note: 参见对正在编译的函数 模板 实例化“void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Insert<const std::pair<const _Kty,_Ty>&>(std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>,std::_Iterator_base0>,const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list(1034): note: 参见对正在编译的函数 模板 实例化“void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Insert<const std::pair<const _Kty,_Ty>&>(std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>,std::_Iterator_base0>,const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xhash(270): note: 参见对正在编译的函数 模板 实例化“void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::emplace_front<const std::pair<const _Kty,_Ty>&>(const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xhash(270): note: 参见对正在编译的函数 模板 实例化“void std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::emplace_front<const std::pair<const _Kty,_Ty>&>(const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xhash(520): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<const std::pair<const _Kty,_Ty>&>(const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xhash(520): note: 参见对正在编译的函数 模板 实例化“std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<const std::pair<const _Kty,_Ty>&>(const std::pair<const _Kty,_Ty> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xhash(846): note: 参见对正在编译的函数 模板 实例化“void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>(_Iter,_Iter)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>,
+              _Iter=std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xhash(846): note: 参见对正在编译的函数 模板 实例化“void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>>(_Iter,_Iter)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>,
+              _Iter=std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xhash(837): note: 编译类 模板 成员函数“void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Copy(const std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>> &)”时
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xhash(290): note: 参见对正在编译的函数 模板 实例化“void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Copy(const std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>> &)”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\unordered_map(86): note: 参见对正在编译的类 模板 实例化“std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>”的引用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::unique_ptr<Texture,std::default_delete<Texture>>,
+              _Hasher=std::hash<std::string>,
+              _Keyeq=std::equal_to<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::unique_ptr<Texture,std::default_delete<Texture>>>>
+          ]
+  c:\users\lcsszz\documents\chang liu demo\20140411\20140411\CubeMap.h(136): note: 参见对正在编译的类 模板 实例化“std::unordered_map<std::string,std::unique_ptr<Texture,std::default_delete<_Ty>>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,std::unique_ptr<_Ty,std::default_delete<_Ty>>>>>”的引用
+          with
+          [
+              _Ty=Texture,
+              _Kty=std::string
+          ]
+  d3dScene.cpp
+  FrameResource.cpp
